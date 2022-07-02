@@ -62,7 +62,7 @@ def jpeg_encode(img_path, write_path, alpha=1.0):
 
 
 if __name__ == "__main__":
-    img_path = "data/test.jpg"
+    img_path = "data/IMG_1869.bmp"
     write_path = "data/jch.jpg"
     Y_byte_stream, Cb_byte_stream, Cr_byte_stream = jpeg_encode(img_path=img_path, write_path=write_path, alpha=alpha)
     # print((len(Y_byte_stream) + len(Cb_byte_stream) + len(Cr_byte_stream)) // 8 // 1024)
